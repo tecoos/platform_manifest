@@ -344,6 +344,7 @@
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
+  <project path="packages/apps/AnimationApp" name="AnimationApp" groups="pdk-fs" remote="tecoos" revision="master"/>
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/Car/Dialer" name="platform/packages/apps/Car/Dialer" groups="pdk-fs" />

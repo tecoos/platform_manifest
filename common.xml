@@ -6,6 +6,9 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.1.0_r33" />
 
+  <remote  name="tecoos"
+           fetch="ssh://git@github.com/tecoos" />
+
   <default remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -359,7 +362,7 @@
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="tecoos" revision="tecoos-8.1.0_r33"/>
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" />  
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" groups="pdk-fs" clone-depth="1" />

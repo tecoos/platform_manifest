@@ -6,10 +6,6 @@
            review="review.lineageos.org" remote="github"
            revision="refs/heads/lineage-15.1" />
 
-  <remote  name="tecoos"
-           fetch="ssh://git@github.com/tecoos"
-           revision="refs/heads/tecoos-8.1.0_r33" />
-
   <!-- AOSP Projects -->
   <include name="common.xml" remote="github" />
 
@@ -134,7 +130,7 @@
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="github" />
 
   <!-- Raspberry Pi 3 -->
-  <project path="device/brcm/rpi3" name="android_device_brcm_rpi3" remote="tecoos" />
+  <project path="device/brcm/rpi3" name="android_device_brcm_rpi3" remote="tecoos" revision="refs/heads/tecoos-8.1.0_r33" />
   <project path="kernel/brcm/rpi3" name="lineage-rpi/android_kernel_brcm_rpi3" remote="github" />
   <project path="vendor/brcm" name="lineage-rpi/proprietary_vendor_brcm" remote="github" />
 
